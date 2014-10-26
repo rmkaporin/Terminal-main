@@ -1,0 +1,10 @@
+kiev minsk 10-12-2012 10 50
+kiev donetsk 13-12-2014 32 22
+zaporojie lviv 12-01-2011 33 45
+lutsk gdinia 31-12-2011 44 44
+harkov summi 10-11-2014 43 68
+vinnica lviv 15-12-2011 14 64
+ternopol ivanofr. 21-12-2011 33 86
+lutsk nikolaev 13-12-2011 33 22
+odessa zaporojie 26-12-2014 11 5
+manchester london 12-01-2011 2 33

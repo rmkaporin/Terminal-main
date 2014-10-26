@@ -1,0 +1,60 @@
+﻿Build started 26/10/2014 13:59:24.
+     1>Project "C:\Users\Roman Kaporin\Documents\Visual Studio 2010\Projects\(VERSION-X)\Terminal\(VERSION-X)\(VERSION-X).vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\(VERSION-X).unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CASHBOX.cpp COMPUTER.cpp INGENIER.cpp main.cpp PRINTER.cpp SERVER.cpp TERMIMAL.cpp
+         TERMIMAL.cpp
+     1>c:\users\roman kaporin\documents\visual studio 2010\projects\(version-x)\terminal\(version-x)\termimal.cpp(53): warning C4996: 'asctime': This function or variable may be unsafe. Consider using asctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.h(153) : see declaration of 'asctime'
+     1>c:\users\roman kaporin\documents\visual studio 2010\projects\(version-x)\terminal\(version-x)\termimal.cpp(53): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+         SERVER.cpp
+     1>c:\users\roman kaporin\documents\visual studio 2010\projects\(version-x)\terminal\(version-x)\server.cpp(135): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\roman kaporin\documents\visual studio 2010\projects\(version-x)\terminal\(version-x)\server.cpp(137): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\roman kaporin\documents\visual studio 2010\projects\(version-x)\terminal\(version-x)\server.cpp(138): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\roman kaporin\documents\visual studio 2010\projects\(version-x)\terminal\(version-x)\server.cpp(141): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\roman kaporin\documents\visual studio 2010\projects\(version-x)\terminal\(version-x)\server.cpp(141): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strupr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(252) : see declaration of 'strupr'
+     1>c:\users\roman kaporin\documents\visual studio 2010\projects\(version-x)\terminal\(version-x)\server.cpp(142): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\roman kaporin\documents\visual studio 2010\projects\(version-x)\terminal\(version-x)\server.cpp(143): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\roman kaporin\documents\visual studio 2010\projects\(version-x)\terminal\(version-x)\server.cpp(145): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         PRINTER.cpp
+     1>c:\users\roman kaporin\documents\visual studio 2010\projects\(version-x)\terminal\(version-x)\printer.cpp(55): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         main.cpp
+         INGENIER.cpp
+     1>c:\users\roman kaporin\documents\visual studio 2010\projects\(version-x)\terminal\(version-x)\ingenier.cpp(24): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\roman kaporin\documents\visual studio 2010\projects\(version-x)\terminal\(version-x)\ingenier.cpp(26): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+         COMPUTER.cpp
+         CASHBOX.cpp
+     1>c:\users\roman kaporin\documents\visual studio 2010\projects\(version-x)\terminal\(version-x)\cashbox.cpp(72): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\roman kaporin\documents\visual studio 2010\projects\(version-x)\terminal\(version-x)\cashbox.cpp(75): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Roman Kaporin\Documents\Visual Studio 2010\Projects\(VERSION-X)\Terminal\Debug\(VERSION-X).exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\(VERSION-X).exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Roman Kaporin\Documents\Visual Studio 2010\Projects\(VERSION-X)\Terminal\Debug\(VERSION-X).pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Roman Kaporin\Documents\Visual Studio 2010\Projects\(VERSION-X)\Terminal\Debug\(VERSION-X).lib" /MACHINE:X86 Debug\CASHBOX.obj
+         Debug\COMPUTER.obj
+         Debug\INGENIER.obj
+         Debug\main.obj
+         Debug\PRINTER.obj
+         Debug\SERVER.obj
+         Debug\TERMIMAL.obj
+     1>CASHBOX.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         (VERSION-X).vcxproj -> C:\Users\Roman Kaporin\Documents\Visual Studio 2010\Projects\(VERSION-X)\Terminal\Debug\(VERSION-X).exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Roman Kaporin\Documents\Visual Studio 2010\Projects\(VERSION-X)\Terminal\Debug\(VERSION-X).exe;#1" /manifest "Debug\(VERSION-X).exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\(VERSION-X).unsuccessfulbuild".
+         Touching "Debug\(VERSION-X).lastbuildstate".
+     1>Done Building Project "C:\Users\Roman Kaporin\Documents\Visual Studio 2010\Projects\(VERSION-X)\Terminal\(VERSION-X)\(VERSION-X).vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.07
